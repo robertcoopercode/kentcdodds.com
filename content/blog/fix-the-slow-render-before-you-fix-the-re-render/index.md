@@ -147,7 +147,7 @@ Given that JavaScript is really fast at handling the render and diff phases,
 then why is my app freezing up when I'm getting unnecessary re-renders? In that
 situation, I'd suggest that your problem _might_ be unnecessary re-renders, but
 it's more likely a problem with slow renders in general. There's something that
-your code is doing during the render phase that's making things slow. You
+you're code is doing during the render phase that's making things slow. You
 should diagnose and fix _that_ first. Once you've fixed that problem, then you
 can profile your app again and see if you still have issues with unnecessary
 re-renders.
